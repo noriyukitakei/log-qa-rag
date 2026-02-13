@@ -1,0 +1,12 @@
+[2026-01-13 11:45:22 +0000] kernel: Out of memory: Kill process 4455 (mysql) score 500 due to large temporary table usage
+[2026-01-13 11:45:23 +0000] dbserver: ERROR: MySQL killed due to memory pressure after large query
+[2026-01-13 11:45:23 +0000] dbserver: ERROR: Service restarted after OOM kill
+[2026-01-14 16:55:12 +0000] systemd: Started Web Service.
+[2026-01-14 17:05:42 +0000] kernel: Memory pressure detected.
+[2026-01-14 17:06:03 +0000] kernel: Out of memory: Kill process 2345 (node) score 900 or sacrifice child
+[2026-01-14 17:06:04 +0000] kernel: Killed process 2345 (node) total-vm:123456kB, anon-rss:98765kB, file-rss:1234kB
+[2026-01-14 17:06:05 +0000] webapp: ERROR: Service restarted after OOM kill
+[2026-01-14 17:12:17 +0000] kernel: Memory cgroup out of memory: Kill process 6789 (python) score 750
+[2026-01-14 18:22:33 +0000] systemd: The system is running low on memory.
+[2026-01-15 02:44:11 +0000] kernel: Out of memory: Kill process 9876 (backup) score 700 due to huge file buffering
+[2026-01-15 02:44:12 +0000] backup: WARN: Backup aborted due to insufficient memory
